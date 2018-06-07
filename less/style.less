@@ -1,0 +1,216 @@
+// "out": "../css/style.css"
+body {
+   background-color: #464f54;
+   .black-block {
+      .black-wrapper {
+         margin-left: 70px;
+         .title {
+            font-size: 15px;
+            color: #303030;
+            margin-top: 50px;
+            margin-bottom: 0;
+         }
+
+         input {
+            background-color: transparent;
+            color: #fff;
+            border: none;
+            font-size: 48px;
+            outline: none;
+            font-family: 'MingLiU-ExtB';
+            font-weight: 600;
+            width: 100%;
+
+            &::placeholder {
+               color: #dadada;
+               font-size: 20px;
+               font-weight: 400;
+               opacity: 0.3;
+
+            }
+
+            &:focus {
+               border-bottom: 1px solid rgba(250, 195, 57, 0.2);
+
+            }
+
+         }
+
+         &:after {
+            content: '';
+            margin-top: 18px;
+            display: table;
+            width: 100%;
+            height: 2px;
+            background-color: #303030;
+         }
+
+      }
+
+      position: absolute;
+      left: 420px;
+      right: 0;
+      top: 47px;
+      width: 100%;
+      height: 190px;
+      background-color: #000;
+      z-index: 4;
+   }
+
+   .orange-block {
+      position: absolute;
+      left: 484px;
+      right: 0;
+      top: 234px;
+      width: 100%;
+      height: 70px;
+      background-color: #f8be2d;
+      z-index: 3;
+      .orange-wrapper {
+         margin-left: 42px;
+         width: 40px;
+         height: 40px;
+
+         button {
+            margin-top: 20px;
+            margin-right: 22px;
+            height: 38px;
+            width: 37px;
+            background-color: transparent;
+            border: none;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            cursor: pointer;
+            opacity: 0.5;
+            outline: none;
+            &:hover {
+               opacity: 1;
+            }
+
+            &:focus {
+               opacity: 1;
+
+            }
+
+            &:nth-child(1) {
+               background-image: url(../img/text.png);
+
+            }
+
+            &:nth-child(2) {
+               background-image: url(../img/size.png);
+
+            }
+
+            &:nth-child(3) {
+               background-image: url(../img/photo.png);
+
+            }
+
+            &:nth-child(4) {
+               background-image: url(../img/bold.png);
+
+            }
+
+            &:nth-child(5) {
+               background-image: url(../img/italic.png);
+
+            }
+
+            &:nth-child(6) {
+               background-image: url(../img/underline.png);
+
+            }
+
+            &:nth-child(7) {
+               background-image: url(../img/justify.png);
+
+            }
+
+            &:nth-child(8) {
+               background-image: url(../img/left.png);
+
+            }
+
+            &:nth-child(9) {
+               background-image: url(../img/center.png);
+
+            }
+
+            &:nth-child(10) {
+               background-image: url(../img/right.png);
+
+            }
+
+         }
+
+      }
+
+   }
+
+   .white-block {
+      position: absolute;
+      margin: auto;
+      left: 5%;
+      right: 5%;
+      top: 15%;
+      width: 90%;
+      height: 100%;
+      background-color: #fff;
+      z-index: 1;
+
+      .white-wrapper {
+         padding-left: 60px;
+         padding-top: 210px;
+         margin-left: 65px;
+         border-left: 2px #dadada solid;
+
+         .author {
+            margin-bottom: 40px;
+            font-family: 'Myriad Pro';
+            font-size: 20px;
+            color: #b4b4b4;
+            font-weight: 400;
+            letter-spacing: 5px;
+
+         }
+
+         .header-name {
+            font-size: 77px;
+            margin: 0;
+            font-family: 'Arial';
+            font-weight: 700;
+            letter-spacing: 5px;
+
+         }
+
+         .header-description {
+            margin-top: 0;
+            margin-bottom: 50px;
+            font-size: 30px;
+            color: #8f8f8f;
+            font-family: Georgia, italic;
+            font-style: italic;
+            font-weight: 400;
+         }
+
+         p {
+            font-family: Georgia, regular;
+            width: 800px;
+            font-size: 27px;
+            line-height: 170%;
+
+         }
+
+      }
+
+   }
+
+}
+
+@font-face{
+   font-family: 'Myriad Pro';
+   src:  url('../fonts/8143.otf');
+
+}
